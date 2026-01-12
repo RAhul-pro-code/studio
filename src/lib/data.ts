@@ -33,6 +33,16 @@ let clients: Client[] = [
     email: 'charlie@datacorp.com',
     createdAt: subDays(new Date(), 40).toISOString(),
   },
+  {
+    id: '4',
+    clientName: 'Rahul H',
+    companyName: 'Rahul Industries',
+    city: 'Mumbai',
+    contactPerson: 'Rahul H',
+    phone: '111-222-3333',
+    email: 'rahul@rahulindustries.com',
+    createdAt: subDays(new Date(), 5).toISOString(),
+  },
 ];
 
 let cases: Case[] = [
@@ -90,6 +100,17 @@ let cases: Case[] = [
     status: 'Closed',
     lastFollowUpNotes: 'Invoice paid in full.',
     createdAt: subDays(new Date(), 120).toISOString(),
+  },
+  {
+    id: '106',
+    clientId: '4',
+    invoiceNumber: 'INV-006',
+    invoiceAmount: 350.0,
+    invoiceDate: subDays(new Date(), 10).toISOString(),
+    dueDate: addDays(new Date(), 20).toISOString(),
+    status: 'New',
+    lastFollowUpNotes: '',
+    createdAt: subDays(new Date(), 10).toISOString(),
   },
 ];
 
