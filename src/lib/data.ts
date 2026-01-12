@@ -35,12 +35,12 @@ let clients: Client[] = [
   },
   {
     id: '4',
-    clientName: 'Rahul H',
-    companyName: 'Rahul Industries',
-    city: 'Mumbai',
-    contactPerson: 'Rahul H',
-    phone: '111-222-3333',
-    email: 'rahul@rahulindustries.com',
+    clientName: 'Rahul',
+    companyName: 'AssuredPay',
+    city: 'Banglore',
+    contactPerson: 'Rahul',
+    phone: '9900930521',
+    email: 'Rahul@123gmail.com',
     createdAt: subDays(new Date(), 5).toISOString(),
   },
 ];
